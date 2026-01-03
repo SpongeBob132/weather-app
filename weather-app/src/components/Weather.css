@@ -90,7 +90,7 @@
 /* Mobile Devices (600px and below) */
 @media (max-width: 600px){
     .weather{
-        padding: 25px 20px;           
+        padding: 25px 15px;           
         border-radius: 30px;          /* ADD THIS */
         max-width: 100%;              /* ADD THIS */
     }
@@ -156,7 +156,7 @@
 /* Very Small Devices (360px and below) */
 @media (max-width: 360px){
     .weather{
-        padding: 20px 15px;
+        padding: 20px 10px;
     }
 
     .search-weather input{
