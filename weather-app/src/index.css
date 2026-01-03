@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,31 +8,53 @@
   font-weight: 600;
 }
 
-body{
+body {
   background-color: rgb(225, 190, 250);
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
 }
 
-.app{
+.app {
   min-height: 100vh;
   display: grid;
   padding: 20px;
-  align-items: center; /* Center the weather card vertically */
+  align-items: center;
+  justify-items: center;
 }
 
-/* Mobile Devices (600px and below) */
-@media (max-width: 600px){
-  .app{
-    padding: 10px;
-    min-height: 100vh;
+/* Tablets (601px to 900px) */
+@media (max-width: 900px) and (min-width: 601px) {
+  .app {
+    padding: 30px 20px;
+  }
+}
+
+/* Mobile Devices (481px to 600px) */
+@media (max-width: 600px) and (min-width: 481px) {
+  .app {
+    padding: 15px;
+  }
+}
+
+/* Small Mobile Devices (361px to 480px) */
+@media (max-width: 480px) and (min-width: 361px) {
+  .app {
+    padding: 12px;
   }
 }
 
 /* Very Small Devices (360px and below) */
-@media (max-width: 360px){
-  .app{
-    padding: 8px;
+@media (max-width: 360px) {
+  .app {
+    padding: 10px 8px;
+  }
+}
+
+/* Landscape Orientation for Mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+  .app {
+    padding: 10px;
+    align-items: flex-start;
   }
 }
