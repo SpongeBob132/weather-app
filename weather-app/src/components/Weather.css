@@ -1,0 +1,195 @@
+.weather{
+    place-self: center;
+    padding: 40px;
+    border-radius: 50px;
+    background: linear-gradient(180deg,rgb(160, 170, 255), rgb(230, 190, 255),rgb(255, 220, 170));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;              /* ADD THIS */
+    max-width: 450px;         /* ADD THIS */
+}
+
+.search-weather{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;              /* ADD THIS */
+}
+
+.search-weather input{
+    border: none;
+    height: 50px;
+    padding: 18px;
+    outline: none;
+    border-radius: 27px;
+    background-color: #dccefb;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    flex: 1;                  /* ADD THIS */
+    min-width: 0;             /* ADD THIS */
+}
+
+.search-img{
+    width: 44px;
+    min-width: 44px;          /* ADD THIS */
+    height: 44px;             /* ADD THIS */
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #ddceff;
+    cursor: pointer;
+}
+
+.weather-icon{
+    width: 190px;
+    margin: 40px 0;
+}
+
+.temperature{
+    font-size: 50px;
+    color: white;
+    line-height: 1;
+}
+
+.location{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.weather-data{
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+    gap: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.col span{
+    display: block;
+    font-size: 16px;
+}
+
+.col img{
+    width: 46px;
+}
+
+.col .windIcon{
+    width: 60px;
+}
+
+/* Mobile Devices (600px and below) */
+@media (max-width: 600px){
+    .weather{
+        padding: 25px 20px;           /* Changed from 5px */
+        border-radius: 30px;          /* ADD THIS */
+        max-width: 100%;              /* ADD THIS */
+    }
+
+    .weather-icon{
+        width: 140px;
+        margin: 25px 0;
+    }
+
+    .temperature{
+        font-size: 38px;              /* Changed from 29px */
+    }
+
+    .location{
+        font-size: 26px;              /* Changed from 29px */
+    }
+    
+    .search-weather{
+        gap: 10px;                    /* Changed from 9px */
+        padding: 0;                   /* Remove padding */
+    }
+
+    .search-weather input{
+        height: 42px;                 /* Changed from 40px */
+        padding: 12px;                /* Changed from 19px */
+        border-radius: 27px;          /* Changed from 20px */
+        font-size: 16px;              /* Changed from 19px */
+        margin-top: 0;                /* REMOVE margin-top */
+    }
+
+    .search-img{
+        width: 38px;                  /* Slightly smaller */
+        min-width: 38px;              /* ADD THIS */
+        height: 38px;                 /* ADD THIS */
+        padding: 8px;
+        margin-top: 0;                /* REMOVE margin-top */
+    }
+
+    .weather .col{
+        gap: 6px;                     /* Changed from 1px */
+        font-size: 16px;              /* ADD THIS */
+    }
+
+    .weather-data{
+        gap: 30px;                    /* Keep this */
+        margin-top: 30px;             /* Changed from 40px */
+        padding: 0;                   /* REMOVE padding */
+    }
+
+    .col img{
+        width: 36px;                  /* ADD THIS */
+    }
+
+    .col .windIcon{
+        width: 46px;                  /* ADD THIS */
+    }
+
+    .col span{
+        font-size: 14px;              /* ADD THIS */
+    }
+}
+
+/* Very Small Devices (360px and below) */
+@media (max-width: 360px){
+    .weather{
+        padding: 20px 15px;
+    }
+
+    .search-weather input{
+        font-size: 14px;
+        height: 38px;
+    }
+
+    .search-img{
+        width: 35px;
+        min-width: 35px;
+        height: 35px;
+    }
+
+    .weather-icon{
+        width: 120px;
+        margin: 20px 0;
+    }
+
+    .temperature{
+        font-size: 34px;
+    }
+
+    .location{
+        font-size: 22px;
+    }
+
+    .weather-data{
+        gap: 20px;
+        flex-direction: column;      /* Stack vertically */
+        align-items: center;
+    }
+
+    .weather .col{
+        font-size: 15px;
+    }
+}
