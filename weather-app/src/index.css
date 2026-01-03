@@ -22,7 +22,7 @@ body{
 
 @media (max-width: 600px){
   .app{
-    padding: 10px; /* Smaller padding for mobile */
+    padding: 15px; /* Smaller padding for mobile */
     min-height: 100vh;
     overflow: hidden; /* Prevent scroll */
   }
@@ -30,6 +30,8 @@ body{
 
 @media (max-width: 360px){
   .app{
-    padding: 5px; /* Even smaller padding for tiny screens */
+    padding: 15px; /* Even smaller padding for tiny screens */
+    min-height: 100vh;
+    overflow: hidden; /* Prevent scroll */
   }
 }
