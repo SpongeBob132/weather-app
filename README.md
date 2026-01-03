@@ -13,8 +13,7 @@ A beautiful, responsive weather application built with React that provides real-
 - ⌨️ Keyboard support (Enter to search)
 
 ## 🚀 Live Demo
-
-https://weather-app-4cjx.vercel.app/
+**[Click here to view live app](https://weather-app-4cjx.vercel.app/)** 🌐
 
 ## 🛠️ Technologies Used
 
@@ -75,6 +74,6 @@ This project uses the [OpenWeather API](https://openweathermap.org/api)
 
 ## 👨‍💻 Author
 
-**Your Name**
+Joel Sam
 - GitHub: [@Dumbboss](https://github.com/Dumbboss)
 
