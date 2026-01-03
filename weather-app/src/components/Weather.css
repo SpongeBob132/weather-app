@@ -185,7 +185,7 @@
 
     .weather-data{
         gap: 20px;
-        flex-direction: column;      /* Stack vertically */
+        flex-direction: column;      
         align-items: center;
     }
 

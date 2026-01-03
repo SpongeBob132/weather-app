@@ -74,10 +74,4 @@ This project uses the [OpenWeather API](https://openweathermap.org/api)
 - GitHub: [@Dumbboss](https://github.com/Dumbboss)
 - Portfolio: [Your website]
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
-
 ⭐ Star this repo if you found it helpful!

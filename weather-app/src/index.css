@@ -18,6 +18,18 @@ body{
 .app{
   min-height: 100vh;
   display: grid;
-  padding: 0 30PX;
 }
 
+@media (max-width: 600px){
+  .app{
+    padding: 10px; /* Smaller padding for mobile */
+    min-height: 100vh;
+    overflow: hidden; /* Prevent scroll */
+  }
+}
+
+@media (max-width: 360px){
+  .app{
+    padding: 5px; /* Even smaller padding for tiny screens */
+  }
+}
