@@ -14,7 +14,7 @@ A beautiful, responsive weather application built with React that provides real-
 
 ## 🚀 Live Demo
 
-Coming soon! (Will deploy to Vercel next)
+https://weather-app-4cjx.vercel.app/
 
 ## 🛠️ Technologies Used
 
@@ -27,18 +27,18 @@ Coming soon! (Will deploy to Vercel next)
 ## 📦 Installation
 
 1. Clone the repository
-```bash
+```
    git clone https://github.com/Dumbboss/weather-app.git
    cd weather-app
 ```
 
 2. Navigate to the project directory
-```bash
+```
    cd weather-app
 ```
 
 3. Install dependencies
-```bash
+```
    npm install
 ```
 
@@ -48,7 +48,7 @@ Coming soon! (Will deploy to Vercel next)
 ```
 
 5. Run the development server
-```bash
+```
    npm run dev
 ```
 
@@ -56,7 +56,9 @@ Coming soon! (Will deploy to Vercel next)
 
 ## 🎨 Screenshots
 
-*Screenshots coming soon*
+### Desktop View
+https://github.com/user-attachments/assets/e9ceb187-cc29-4dcd-a251-dcc9817924aa
+
 
 ## 🌐 API Reference
 
@@ -72,6 +74,4 @@ This project uses the [OpenWeather API](https://openweathermap.org/api)
 
 **Your Name**
 - GitHub: [@Dumbboss](https://github.com/Dumbboss)
-- Portfolio: [Your website]
 
-⭐ Star this repo if you found it helpful!
