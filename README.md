@@ -57,8 +57,11 @@ https://weather-app-4cjx.vercel.app/
 ## 🎨 Screenshots
 
 ### Desktop View
-https://github.com/user-attachments/assets/e9ceb187-cc29-4dcd-a251-dcc9817924aa
-
+![Weather App Desktop](https://github.com/user-attachments/assets/e9ceb187-cc29-4dcd-a251-dcc9817924aa)
+![Weather App Desktop](https://github.com/user-attachments/assets/1cf88a35-63ef-42a3-a570-376b6be06dc4)
+![Weather App Desktop](https://github.com/user-attachments/assets/cffdb8c6-287e-45b6-9fe2-b13ca5d6a363)
+![Weather App Desktop](https://github.com/user-attachments/assets/dfcbcdc5-03b4-496a-8378-9c6649becb69)
+![Weather App Desktop](https://github.com/user-attachments/assets/4a99a3dc-0909-47d7-be39-b26998261595)
 
 ## 🌐 API Reference
 
