@@ -1,16 +1,83 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, responsive weather application built with React that provides real-time weather information for cities worldwide.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search weather by city name
+- 🌡️ Real-time temperature in Celsius
+- 💧 Humidity percentage display
+- 💨 Wind speed information
+- 🎨 Beautiful gradient UI with weather-specific icons
+- 📱 Fully responsive (Mobile, Tablet, Desktop)
+- ⌨️ Keyboard support (Enter to search)
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Coming soon! (Will deploy to Vercel next)
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite
+- OpenWeather API
+- CSS3 with Flexbox & Media Queries
+- JavaScript ES6+
+
+## 📦 Installation
+
+1. Clone the repository
+```bash
+   git clone https://github.com/Dumbboss/weather-app.git
+   cd weather-app
+```
+
+2. Navigate to the project directory
+```bash
+   cd weather-app
+```
+
+3. Install dependencies
+```bash
+   npm install
+```
+
+4. Create a `.env` file in the root and add your API key
+```
+   VITE_APP_ID=your_openweather_api_key
+```
+
+5. Run the development server
+```bash
+   npm run dev
+```
+
+6. Open http://localhost:5173 in your browser
+
+## 🎨 Screenshots
+
+*Screenshots coming soon*
+
+## 🌐 API Reference
+
+This project uses the [OpenWeather API](https://openweathermap.org/api)
+
+## 📱 Responsive Breakpoints
+
+- Mobile: 320px - 600px
+- Tablet: 601px - 768px
+- Desktop: 769px+
+
+## 👨‍💻 Author
+
+**Your Name**
+- GitHub: [@Dumbboss](https://github.com/Dumbboss)
+- Portfolio: [Your website]
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+⭐ Star this repo if you found it helpful!
