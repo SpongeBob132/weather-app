@@ -72,8 +72,6 @@ This project uses the [OpenWeather API](https://openweathermap.org/api)
 - Tablet: 601px - 768px
 - Desktop: 769px+
 
-## 👨‍💻 Author
 
-Joel Sam
-- GitHub: [@Dumbboss](https://github.com/Dumbboss)
+
 
